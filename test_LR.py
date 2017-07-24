@@ -22,7 +22,7 @@ test_y = train_y
 # [20: 41] train_x = train_x train_y = train_y
 numSamples, numFeatures = shape(test_x)
 
-# step 2: training...
+# step 2: training....
 print "step 2: training..."
 opts = {'alpha': 0.01, 'maxIter': 100, 'optimizeType': 'smoothStocGradDescent'}
 opts['maxIter'] = input('please input maximum number of iterations: ')
