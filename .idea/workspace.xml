@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="368121c3-b7cf-4e08-98f2-60f67ac6f5f3" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.xls" afterPath="$PROJECT_DIR$/demo.xls" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LR.py" afterPath="$PROJECT_DIR$/LR.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/naive_Bayes.py" afterPath="$PROJECT_DIR$/naive_Bayes.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -336,7 +333,14 @@
       <option name="project" value="LOCAL" />
       <updated>1501058372225</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="test code">
+      <created>1501060960613</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1501060960613</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -405,7 +409,8 @@
     <MESSAGE value="修改#格式" />
     <MESSAGE value="summit SVM code" />
     <MESSAGE value="summit naive_Bayes code" />
-    <option name="LAST_COMMIT_MESSAGE" value="summit naive_Bayes code" />
+    <MESSAGE value="test code" />
+    <option name="LAST_COMMIT_MESSAGE" value="test code" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
