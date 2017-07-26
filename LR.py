@@ -156,7 +156,9 @@ def write_excel(test_x, score):
     workbook = xlwt.Workbook(encoding='utf-8')
     data_sheet = workbook.add_sheet('demo')
     data_sheet.write(0, 0, 'ID', set_style('Times New Roman', 220, True))
+    data_sheet.write(0, 1, 'Score', set_style('Times New Roman', 220, True))
     # data_sheet.write(0, 1, 'ID')
     for i in xrange(numSamples):
         data_sheet.write(i + 1, 0, score[i][0], set_style('Times New Roman', 220, True))
+        data_sheet.write(i + 1, 1, score[i][1], set_style('Times New Roman', 220, True))
     workbook.save('demo.xls')
