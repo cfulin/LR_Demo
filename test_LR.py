@@ -17,6 +17,13 @@ def loadData():
 # step 1: load data
 print "step 1: load data..."
 train_x, train_y = loadData()
+
+# from sklearn.decomposition import PCA
+#
+# pca = PCA()
+# pca.fit(train_x)
+# train_x = pca.components_
+
 test_x = train_x
 test_y = train_y
 # [20: 41] train_x = train_x train_y = train_y
@@ -46,7 +53,7 @@ write_excel(test_x, score)
 # step 4: show the result
 print "step 4: show the result..."
 print 'The classify accuracy is: %.3f%%' % (accuracy * 100)
-# showLogRegres(optimalWeights, train_x, train_y)
+showLogRegres(optimalWeights, train_x, train_y)
 
 # step 5: show weights curves
 print "step 5: show weights curves..."
